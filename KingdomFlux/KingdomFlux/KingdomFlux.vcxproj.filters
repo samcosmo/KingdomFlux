@@ -13,12 +13,69 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\global">
+      <UniqueIdentifier>{5d4d9ba9-dd8a-46f9-af9c-b69550a6453b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\troops">
+      <UniqueIdentifier>{26f8a02a-afb3-4dac-b58e-af4e539d6b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\building">
+      <UniqueIdentifier>{1b4dffd9-1818-4c5d-84b7-dfc8cd26c025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\defence">
+      <UniqueIdentifier>{7ca8cc2a-0fda-4506-8b0a-41b7bbe35e51}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Client.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="archer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="footman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="knight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="messenger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wagon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="king.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="villager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="barracks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="town.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rationfarm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coinmine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lumbercamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stonequarry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -28,6 +85,51 @@
     </ClCompile>
     <ClCompile Include="Server.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="archer.cpp">
+      <Filter>Source Files\troops</Filter>
+    </ClCompile>
+    <ClCompile Include="footman.cpp">
+      <Filter>Source Files\troops</Filter>
+    </ClCompile>
+    <ClCompile Include="knight.cpp">
+      <Filter>Source Files\troops</Filter>
+    </ClCompile>
+    <ClCompile Include="messenger.cpp">
+      <Filter>Source Files\troops</Filter>
+    </ClCompile>
+    <ClCompile Include="mob.cpp">
+      <Filter>Source Files\global</Filter>
+    </ClCompile>
+    <ClCompile Include="ent.cpp">
+      <Filter>Source Files\global</Filter>
+    </ClCompile>
+    <ClCompile Include="king.cpp">
+      <Filter>Source Files\troops</Filter>
+    </ClCompile>
+    <ClCompile Include="wagon.cpp">
+      <Filter>Source Files\troops</Filter>
+    </ClCompile>
+    <ClCompile Include="villager.cpp">
+      <Filter>Source Files\troops</Filter>
+    </ClCompile>
+    <ClCompile Include="barracks.cpp">
+      <Filter>Source Files\building</Filter>
+    </ClCompile>
+    <ClCompile Include="town.cpp">
+      <Filter>Source Files\building</Filter>
+    </ClCompile>
+    <ClCompile Include="rationfarm.cpp">
+      <Filter>Source Files\building</Filter>
+    </ClCompile>
+    <ClCompile Include="coinmine.cpp">
+      <Filter>Source Files\building</Filter>
+    </ClCompile>
+    <ClCompile Include="lumbercamp.cpp">
+      <Filter>Source Files\building</Filter>
+    </ClCompile>
+    <ClCompile Include="stonequarry.cpp">
+      <Filter>Source Files\building</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
