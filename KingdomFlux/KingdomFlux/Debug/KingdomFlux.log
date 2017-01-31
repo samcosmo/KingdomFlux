@@ -1,0 +1,4 @@
+﻿  Server.cpp
+  Client.cpp
+c:\users\samuel\source\repos\kingdomflux\kingdomflux\kingdomflux\client.cpp(5): error C3861: 'OutputDebugString': identifier not found
+  Generating Code...

@@ -1,12 +1,21 @@
 #include "Client.h"
-
-
-
-Client::Client()
+class Client
 {
-}
+public:
+	static void main(int argc, char** argv)
+	{
 
+	}
 
-Client::~Client()
-{
-}
+	Client()
+	{
+
+	}
+
+	~Client()
+	{
+
+	}
+private:
+
+};
