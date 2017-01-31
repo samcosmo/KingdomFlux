@@ -1,5 +1,7 @@
 #pragma once
-class archer
+#include "mob.h"
+
+class archer : public mob
 {
 public:
 	archer();
