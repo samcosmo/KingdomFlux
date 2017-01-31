@@ -1,5 +1,6 @@
 #pragma once
-class king
+#include "mob.h"
+class king : public mob
 {
 public:
 	king();

@@ -1,5 +1,6 @@
 #pragma once
-class villager
+#include "mob.h"
+class villager : public mob
 {
 public:
 	villager();

@@ -1,5 +1,6 @@
 #pragma once
-class footman
+#include "mob.h"
+class footman : public mob
 {
 public:
 	footman();
