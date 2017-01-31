@@ -110,12 +110,42 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="archer.h" />
+    <ClInclude Include="barracks.h" />
     <ClInclude Include="Client.h" />
+    <ClInclude Include="coinmine.h" />
+    <ClInclude Include="ent.h" />
+    <ClInclude Include="footman.h" />
+    <ClInclude Include="king.h" />
+    <ClInclude Include="knight.h" />
+    <ClInclude Include="lumbercamp.h" />
+    <ClInclude Include="messenger.h" />
+    <ClInclude Include="mob.h" />
+    <ClInclude Include="rationfarm.h" />
     <ClInclude Include="Server.h" />
+    <ClInclude Include="stonequarry.h" />
+    <ClInclude Include="town.h" />
+    <ClInclude Include="villager.h" />
+    <ClInclude Include="wagon.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="archer.cpp" />
+    <ClCompile Include="barracks.cpp" />
     <ClCompile Include="Client.cpp" />
+    <ClCompile Include="coinmine.cpp" />
+    <ClCompile Include="ent.cpp" />
+    <ClCompile Include="footman.cpp" />
+    <ClCompile Include="king.cpp" />
+    <ClCompile Include="knight.cpp" />
+    <ClCompile Include="lumbercamp.cpp" />
+    <ClCompile Include="messenger.cpp" />
+    <ClCompile Include="mob.cpp" />
+    <ClCompile Include="rationfarm.cpp" />
     <ClCompile Include="Server.cpp" />
+    <ClCompile Include="stonequarry.cpp" />
+    <ClCompile Include="town.cpp" />
+    <ClCompile Include="villager.cpp" />
+    <ClCompile Include="wagon.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
