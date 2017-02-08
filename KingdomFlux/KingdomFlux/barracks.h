@@ -1,5 +1,6 @@
 #pragma once
-class barracks
+#include "ent.h"
+class barracks : public ent
 {
 public:
 	barracks();

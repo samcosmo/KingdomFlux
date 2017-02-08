@@ -1,5 +1,6 @@
 #pragma once
-class lumbercamp
+#include "ent.h"
+class lumbercamp : public ent
 {
 public:
 	lumbercamp();
