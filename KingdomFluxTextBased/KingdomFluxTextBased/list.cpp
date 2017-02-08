@@ -12,7 +12,8 @@ list::~list()
 }
 
 
-private: struct Node
+struct Node
 {
-
+	void* item;
+	Node* next;
 };
