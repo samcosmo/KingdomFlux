@@ -1,19 +1,30 @@
 #include "stdafx.h"
 #include "list.h"
 
-
 list::list()
 {
+	this->head = NULL;
 }
-
 
 list::~list()
 {
 }
 
-
-struct Node
+//still working on this
+void* list::get(int i)
 {
-	void* item;
-	Node* next;
-};
+	Node* current = this->head;
+	while (current != NULL)
+	{
+		current = current->next;
+	}
+	
+}
+
+void list::add(void* item, int i)
+{
+}
+
+void list::remove(int i)
+{
+}
