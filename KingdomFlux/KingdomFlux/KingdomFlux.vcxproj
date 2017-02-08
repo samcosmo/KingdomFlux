@@ -148,6 +148,7 @@
     <ClCompile Include="wagon.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="Balance.txt" />
     <Text Include="Concepts.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
