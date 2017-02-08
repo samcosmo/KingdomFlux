@@ -9,7 +9,7 @@ Units:
 		+knight
 		-archer
 	king
-		surrenders (kind of important)
+		surrenders (kind of important) probs dont do that one
 	messenger
 		surrenders
 	wagon
@@ -65,3 +65,9 @@ terrain:
 	mountain
 		+stone
 		+footman damage
+
+heros:
+    * will work in a selection menu before game
+	* will work in a deck (point system)
+
+moral

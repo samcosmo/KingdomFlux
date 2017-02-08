@@ -1,5 +1,6 @@
 #pragma once
-class coinmine
+#include "ent.h"
+class coinmine : public ent
 {
 public:
 	coinmine();

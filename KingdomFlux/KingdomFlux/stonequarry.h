@@ -1,5 +1,6 @@
 #pragma once
-class stonequarry
+#include "ent.h"
+class stonequarry : public ent
 {
 public:
 	stonequarry();

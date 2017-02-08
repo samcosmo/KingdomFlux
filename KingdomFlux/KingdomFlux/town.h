@@ -1,5 +1,6 @@
 #pragma once
-class town
+#include "ent.h"
+class town : public ent
 {
 public:
 	town();

@@ -1,5 +1,6 @@
 #pragma once
-class rationfarm
+#include "ent.h"
+class rationfarm : public ent
 {
 public:
 	rationfarm();
