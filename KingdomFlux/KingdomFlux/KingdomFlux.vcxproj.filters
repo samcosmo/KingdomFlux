@@ -132,4 +132,7 @@
       <Filter>Source Files\building</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Concepts.txt" />
+  </ItemGroup>
 </Project>

@@ -1,0 +1,67 @@
+Units:
+	knight
+		+archer
+		-footman
+	archer
+		+footman
+		-knight
+	footman
+		+knight
+		-archer
+	king
+		surrenders (kind of important)
+	messenger
+		surrenders
+	wagon
+		surrenders
+	villager
+		surrenders
+
+building:
+	castle
+		bonus to soliders
+	town
+		villagers
+	barracks
+		allows troop production
+	ration farm
+		ration
+	coin mine
+		coin
+	lumber camp
+		lumber
+	stone quarry
+		stone
+
+upgrades:
+	defence
+		reduces counter effectiveness
+	offence
+		increases counter damage
+	strength
+		increases base damage
+	tactics
+		increases damage in bonus terrain
+
+resources:
+	ration
+		feeds units
+	coin
+		pays wages and for other things
+	lumber
+		builds economic buildings
+	stone
+		builds defensive buildings
+
+terrain:
+	plains
+		+rations
+	desert
+		+gold
+		+knight damage
+	forest
+		+wood
+		+archer damage
+	mountain
+		+stone
+		+footman damage
