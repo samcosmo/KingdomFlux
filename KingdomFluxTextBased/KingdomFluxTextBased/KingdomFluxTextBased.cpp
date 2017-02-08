@@ -3,16 +3,16 @@
 
 #include "stdafx.h"
 #include <iostream>
-#include <string>
 
 using namespace std;
 
 int main(int argc, char** argv)
 {
-	string mystr;
-
-	getline(cin, mystr);
-
-	printf("%s\n", mystr.c_str());
+	char a = 0;
+	while (a != '\n')
+	{
+		cin >> a;
+		printf("%c\n", a);
+	}
     return 0;
 }
