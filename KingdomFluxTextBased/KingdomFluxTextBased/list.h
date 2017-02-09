@@ -15,5 +15,7 @@ private:
 		Node* next;
 	};
 	Node* head;
+
+	Node* getNode(int);
 };
 

@@ -10,15 +10,21 @@ list::~list()
 {
 }
 
-//still working on this
-void* list::get(int i)
+Node list::getNode(int i)
 {
+	Node* previous = NULL;
 	Node* current = this->head;
+	int n = 0;
+
 	while (current != NULL)
 	{
+		if(n == i)
+		{
+			return current;
+		}
 		current = current->next;
+		i++;
 	}
-	
 }
 
 void list::add(void* item, int i)
