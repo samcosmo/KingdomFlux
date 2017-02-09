@@ -1,5 +1,6 @@
 #include "stdafx.h"
 #include "list.h"
+#include "list"
 
 list::list()
 {
@@ -33,4 +34,9 @@ void list::add(void* item, int i)
 
 void list::remove(int i)
 {
-}
+	void* item;
+	Node* next;
+};
+
+std::list<int> gaycunt;
+
