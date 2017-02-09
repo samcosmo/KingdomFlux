@@ -16,7 +16,7 @@ list::~list()
 {
 }
 
-Node* list::getNode(int i)
+void* list::getNode(int i)
 {
 	Node* current = this->head;
 	int n = 0;
@@ -31,6 +31,16 @@ Node* list::getNode(int i)
 		i++;
 	}
 	return NULL;
+}
+
+void* list::get(int i)
+{
+	Node* current = (Node*)getNode(i);
+	if (current == NULL)
+	{
+		return NULL;
+	}
+	return current->item;
 }
 
 void list::add(void* item, int i)
