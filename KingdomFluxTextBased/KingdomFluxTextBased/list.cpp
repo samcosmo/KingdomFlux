@@ -1,6 +1,12 @@
 #include "stdafx.h"
 #include "list.h"
 
+struct list::Node
+{
+	void* item;
+	Node* next;
+};
+
 list::list()
 {
 	this->head = NULL;
@@ -10,9 +16,8 @@ list::~list()
 {
 }
 
-Node list::getNode(int i)
+Node* list::getNode(int i)
 {
-	Node* previous = NULL;
 	Node* current = this->head;
 	int n = 0;
 
@@ -25,6 +30,7 @@ Node list::getNode(int i)
 		current = current->next;
 		i++;
 	}
+	return NULL;
 }
 
 void list::add(void* item, int i)

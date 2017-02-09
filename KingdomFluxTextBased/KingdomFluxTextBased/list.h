@@ -8,12 +8,7 @@ public:
 	void add(void*,int);
 	void remove(int);
 
-private:
-	struct Node
-	{
-		void* item;
-		Node* next;
-	};
+	struct Node;
 	Node* head;
 
 	Node* getNode(int);
