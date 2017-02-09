@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include "list.h"
-#include "list"
 
 list::list()
 {
