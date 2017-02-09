@@ -38,5 +38,3 @@ void list::remove(int i)
 	Node* next;
 };
 
-std::list<int> gaycunt;
-
